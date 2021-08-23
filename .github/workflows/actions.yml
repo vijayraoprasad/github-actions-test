@@ -10,14 +10,14 @@ jobs:
       - name: List Files
         run: |
           pwd
-          ls
+          ls -a
       - name: Checkout
         uses: actions/checkout@v1
 
       - name: List Files Second Time
         run: |
           pwd
-          ls
+          ls -a
 
       - name: Simple JS Actions
         id: greet
