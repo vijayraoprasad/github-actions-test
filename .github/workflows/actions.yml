@@ -11,6 +11,13 @@ jobs:
         run: |
           pwd
           ls
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: List Files Second Time
+        run: |
+          pwd
+          ls
 
       - name: Simple JS Actions
         id: greet
